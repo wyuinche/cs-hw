@@ -1,0 +1,107 @@
+/* login.php */
+.login-header {
+  background-color: skyblue;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 5rem;
+}
+
+.login-login_handler {
+  margin: 5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align:center;
+  border: 1rem solid skyblue;
+}
+
+.login-personal_information input {
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin: 1rem;
+}
+
+.login-personal_information button {
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin: 1rem;
+}
+
+/* music_main.php */
+.music-header {
+
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-title {
+  text-align: center;
+  width: 15%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.music-nav {
+  text-align: center;
+  width: 30%;
+  border: 0.3rem solid skyblue;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  background-color: skyblue;
+}
+
+.music-header  div{
+  text-align: center;
+}
+
+.music-search {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#music-text-input {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  width: 20%;
+}
+
+.music-search-form {
+  padding: 0.3rem;
+  margin: 0.5rem;
+}
+
+.music-list {
+  background-color: lightpink;
+  padding: 0.5rem;
+
+}
+
+.info-id {
+  width:20px;
+}
+
+
+/* table */
+#table1 thead tr th{
+  border: 1px solid black;
+}
+
+#table1 tbody tr td{
+  border: 1px solid black;
+}
+
+/* description */
+body {
+  padding: 1rem;
+}
+
+#table2  tr{
+  border: 0.2rem solid black;
+}

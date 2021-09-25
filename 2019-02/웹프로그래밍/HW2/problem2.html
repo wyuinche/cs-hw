@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Problem 2</title>
+
+    <script>
+      compare();
+      function compare() {
+
+        let n = prompt("숫자 입력", "number");
+        let low;
+        let high;
+
+        document.write("<h1>"+"큰 자리수와 낮은 자리수 같은지 비교"+"</h1>"+"<h3>음수도 가능 / 한자리수는 높은 자리와 낮은 자리가 같습니다.</h3>"+"<hr>");
+
+
+
+        if(!parseInt(n)&& n != 0){
+          document.write("[Input error] 입력 오류 입니다.");
+          return 0;
+        }
+        else if(n < 10 && n > -10) {
+          document.write(n);
+          document.write(" [Same] 같음");
+          return 0;
+        }
+
+        n = parseInt(n);
+
+        low = n%10;
+        high = n;
+        while(1) {
+          if((high-high%10)/10 == 0){
+            high %= 10;
+            break;
+          }
+          high = (high-high%10)/10;
+        }
+
+        if(low == high){
+          document.write(n);
+          document.write(" [Same] 같음");
+        }
+        else {
+          document.write(n);
+          document.write(" [Different] 다름");
+        }
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

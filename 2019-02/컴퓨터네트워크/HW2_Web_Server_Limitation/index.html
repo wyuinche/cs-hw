@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<style>
+ .login {
+	text-align:center;
+	width:50%;
+	height:auto;
+	margin: 0 auto;
+	padding: 20px;
+	border : 5px solid black;
+	
+ }
+.login2 {
+	list-style:none;
+}
+</style>
+  </head>
+  <body>
+
+	<script language="javascript">function goPage() {setTimeout(2000); location.href="secret.html";}</script>
+    <div class="login">
+     	<form action="secret.html" method="get"> 
+        <ol class="login2">
+		<li>Enter Your ID and Password</li>
+		<li>User ID : <input type="text" id="name" name="Name" value=""> </li>	
+		<li>Password : <input type="password" id="password" name="Password" value=""></li>
+		<li><input type="button" id="submitBtn" name="Submit" onclick="goPage()" value="Log In"></input></li>
+	</ol>
+     
+    </div>
+  </body>
+</html>

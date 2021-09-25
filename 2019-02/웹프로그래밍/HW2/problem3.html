@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Problem 3</title>
+    <style>
+      table {
+        width: 60%
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 2px solid #444444;
+        padding: 10px;
+      }
+    </style>
+    <script>
+      drawTable();
+      function drawTable() {
+        let x = prompt("How many rows for your multiplication table?", "row");
+        let y = prompt("How many columns for your multiplication table?", "column");
+
+        if((!parseInt(x)||!parseInt(y))&&(x!=0&&y!=0)){
+          document.write("[Input error] 입력 오류입니다.");
+          return 0;
+        }
+        else if (x < 1 || y < 1) {
+          document.write("[Input error] 정수가 1보다 작습니다.");
+          return 0;
+        }
+
+        x++;
+        y++;
+
+        document.write("<table>");
+        for(i = 1; i < x; i++) {
+          document.write("<tr>");
+          for (j = 1; j < y; j++) {
+            document.write("<td>");
+            document.write(i*j);
+            document.write("</td>");
+          }
+          document.write("</tr>");
+        }
+        document.write("</table>");
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

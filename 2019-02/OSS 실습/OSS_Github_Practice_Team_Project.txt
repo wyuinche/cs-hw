@@ -1,0 +1,8 @@
+Team Repository:
+	https://github.com/19-2-SKKU-OSS/2019-2-OSS-L8
+
+Personal Repository:
+	https://github.com/wyuinche/2019-2-OSS-L8
+
+Static Page:
+	https://19-2-skku-oss.github.io/2019-2-OSS-L8-page/
