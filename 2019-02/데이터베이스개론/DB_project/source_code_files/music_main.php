@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2019  Oracle Corporation and/or its affiliates
+Copyright (C) 2019 wyuinche
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
